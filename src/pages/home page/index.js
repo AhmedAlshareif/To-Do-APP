@@ -30,15 +30,15 @@ function HomePage(props) {
     const insert =() => {
     setData( 
         (pre)=> [ {id:Math.random() , userId: 1, completed: false ,title: value}, ...pre ]);
-        const handelDelete = () => {
-            c
-        }
+        // const handelDelete = () => {
+          
+        // }
     }
     return (
         <div>
             <h1 style={{ color: '#eeff'}}>ToDo List </h1>
-            <InputCard onchange={handelChange} onclick={insert}/>
-            <TodosCard data={data} onClick={handelDelete}/>
+            {/* <InputCard onchange={handelChange} onclick={insert}/> */}
+            {/* <TodosCard data={data} onClick={handelDelete}/> */}
         </div>
     );
 }

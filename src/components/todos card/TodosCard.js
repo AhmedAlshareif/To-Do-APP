@@ -20,7 +20,7 @@ function TodosCard( {data}) {
 
                 {data.map((item)=>
                 <RowItem item={item} 
-                onClick={onClick}/>
+                />
                  )}
                 
             
