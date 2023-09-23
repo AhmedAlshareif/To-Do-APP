@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+body {
+  margin: 0;
+  background: linear-gradient(90deg, rgba(2,48,71,1) 15%, rgba(142,202,230,1) 88%);
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 0 2px #b3b2b2;
+  padding: 30px 10px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D4E4F7; 
+}

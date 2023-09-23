@@ -1,0 +1,48 @@
+.todo-card {
+    margin-top: 20px !important;
+    align-items: start !important;
+    background-color: #D4E4F7; /* Soft blue */
+    border-radius: 10px;
+}
+
+.todo-card h2 {
+    text-align: left;
+    background: none !important;
+    color: #304ca2; /* Gold */
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    background-color: #D4E4F7; /* Soft blue */
+    border-radius: 10px;
+}
+
+table tr:nth-child(1) {
+    background: #70bbd9; /* Gold */
+    color: #D4E4F7; /* Soft blue */
+}
+
+table tr {
+    margin: 10px 0;
+}
+
+table tr td, table tr th {
+    height: 30px;
+    padding: 10px;
+}
+
+table tr td {
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+}
+
+.title {
+    width: 30%;
+    background-color: #D4E4F7; /* Soft blue */
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 550;
+}
